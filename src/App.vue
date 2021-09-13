@@ -1,10 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/favicon.png">
+  <div class="bg-red-500 h-64">
+    <h1>hi</h1>
+  </div>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+// import './assets/tailwind.css'
 
 export default {
   name: 'App',
